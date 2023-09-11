@@ -1,0 +1,1 @@
+![Git branch relationships](./images/gitbranchrelationships.png)

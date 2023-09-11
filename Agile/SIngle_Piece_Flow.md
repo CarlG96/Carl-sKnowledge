@@ -1,0 +1,5 @@
+Single Piece Flow originates from manufacturing cars. It states that parts that make up the car are moved from step to step with no work-in-process. Essentially it means producing goods one by one instead of producing them in a batch, and keeping the work flowing between each process rather than leaving anything "Work In Progress".
+
+## In Software Engineering
+
+In Software Engineering this is represented by trying to get one single feature 'over the line' and into production before working on another feature or waiting to aggregate multiple features and then deploying a 'complete' product. Whilst this may seem counterintuitive, it works well in that features get put into production rather than be left in a WIP state. In an agile workflow, this does not mean that the feature is 'finished' but that it can be iterated upon in the future if need be depending on whether or not priorities change. This style of working also helps to break down larger tasks into smaller tasks so that they become easily manageable and work feels like it is being achieved.

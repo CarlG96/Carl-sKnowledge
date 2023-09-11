@@ -1,0 +1,7 @@
+A KeyVault is an Azure service for storing secrets and is accessed in the form of key/value pairs. A KeyVault can be used to give out secret references to an app's Managed Identity, this allows the app to access other resources. An example of this would be if you had a Table Storage resource, a KeyVault resource and a WebApp, you could store the connection string required to access the Table Storage in a KeyVault, you could then give the WebApp's Managed Identity into the KeyVault's access policy with the secret Get permission, you could then give a secret reference to the WebApp's Managed Identity in the webapp application settings, which when it wanted to put or get things from the Table Storage, would show the secret reference to the Keyvault and receive the connection string required to access the Table Storage.
+
+A KeyVault can also be accessed by a Service Principal via secret or certificate, although Microsoft does not recommend this approach as secrets must be cycled on a regular basis to avoid them being security risks.
+
+A KeyVault encrypts secrets in its vault, and it is recommended to have a single KeyVault per resource that you want to store the secrets of, rather than one for a wide range of secrets, in order to ensure that if it is compromised in some way less secrets are revealed.
+
+RBAC (Role-Based Access Control) can be used to give different resources or users different permissions and levels of access for the KeyVault.

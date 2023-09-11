@@ -1,1 +1,8 @@
 Describe the characteristics of VNET
+Describe the characteristics of Logic App
+Describe the Use of a Service Collection in C#
+Assign an AAD role to a principal using Azure PowerShell
+Describe Characteristics of Subnet
+Use Postman to get a list of Service Principals from AAD
+Get a list of resource groups from an authenticated Graph Client
+Use a graph client to produce a list of resource groups in a subscription
