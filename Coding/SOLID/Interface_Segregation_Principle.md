@@ -1,0 +1,7 @@
+The I in SOLID stands for Interface Segregation.
+
+Interface Segregration is that in general the classes that implement your interfaces shouldn't need to take things from the interface that they can't use. Instead of having one large interface from which multiple different classes can neatly implement off of, consider making smaller interfaces that can be reused. 
+
+As an example, you might have a large interface called IEmployee, which contains all the methods that any employee in the company could reasonably be expected to do. So you might have a CookLunch() and DevelopSoftware() method in the interface. The problem with this is when the Cook class implements the IEmployee interface, they suddenly need to throw a NotImplementedException when someone asks them to develop software, because the method is unnecessary for their job. Creating ICook and ISoftwareDeveloper classes would be a good way of getting aroung these problems, with each interface only having the one method, meaning that Cook could implement from ICook and would not have a redundant DevelopSoftware() method laying about. 
+
+This also helps in that if there was a SoftwareDevelopingCook class, it could implement from both interfaces, giving it the methods that it needs without forcing the other classes to have methods they don't need. This is the idea of 'composition over inheritance'.

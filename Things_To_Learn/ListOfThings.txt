@@ -6,3 +6,5 @@ Describe Characteristics of Subnet
 Use Postman to get a list of Service Principals from AAD
 Get a list of resource groups from an authenticated Graph Client
 Use a graph client to produce a list of resource groups in a subscription
+Describe the relationship between an RBAC role and an AAD role
+82f

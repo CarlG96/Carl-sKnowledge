@@ -1,0 +1,5 @@
+A unit test is usually considered to be a test that focuses on the smallest 'unit' of code that can be logically isolated in a system. The testing of unit of testing is automated. 
+
+The meaning of unit test is difficult to describe as there are so many meanings and interpretations. London school TDD would usually consider a unit of behaviour to be a unit whereas Chicago school might consider a group of classes that are closely related to comprise a 'unit'.
+
+Unit testing is concerned with isolation of a system so that you can know that a piece of code does exactly what you want it to do; that way you can isolate where bugs are introduced into code. To this end, test doubles can be supplied in order to mock and stub various dependencies in the tests so that each unit test tests exactly one thing. In this way, unit testing is different from systems/ integration tests in that it should not test large systems with multiple moving parts as the cause of bugs and unexpected results may be harder to pinpoint.

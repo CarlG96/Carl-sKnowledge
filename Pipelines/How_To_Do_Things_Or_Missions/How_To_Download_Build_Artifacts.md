@@ -1,0 +1,3 @@
+Here the code is being published as an artifact in the pipeline and placed into the Output folder of the Build.ArtifactStagingDirectory (an inbuilt variable in pipelines). Then in the next step the code package that has been published as a build artifact is being published to the WebApp in Azure by getting it from the zipped file. Builds artifacts can be downloaded in jobs other than the one they are published in with the download task in another job like so:
+
+![Artifact Download](./images/artifactdownload.png)
