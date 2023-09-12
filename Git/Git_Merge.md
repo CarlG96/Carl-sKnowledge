@@ -1,0 +1,3 @@
+Git merging is where two branches with different histories are merged into a single branch, however the non-receiving branch does not change.
+
+Say you had two branches, `main` and `feature`, and you had completed some code on feature you wanted to be present in main, you could checkout to main and then type `git merge feature` it would merge into the main branch. In the instance in which a merge conflict occurs, you would have to manually resolve the code.

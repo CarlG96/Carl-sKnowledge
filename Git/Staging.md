@@ -1,0 +1,5 @@
+# Explain the functionality of staging, including the words words "Index" and "Working Tree"
+
+Staging is done by the git add command. Staging adds the files from your working directory/working tree to the Index or staging are by hashing them. The Index contains all the files that you want to be committed to your git repo. 
+
+A metaphor is that files in your working tree represent items to be delivered to a customer. Staging them involves putting them in boxes and placing them near the delivery lorry. Committing them would place the boxes in the lorry where they are secure and pushing represents sending the lorry out for delivery. In this example though the commit being the snapshot is not really made clear, so imagine that putting them in the lorry also gave you the ability to reverse time to this point should the lorry crash when out for delivery.

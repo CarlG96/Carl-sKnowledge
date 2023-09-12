@@ -1,0 +1,5 @@
+In the scheme of software tests, unit tests test the smallest reasonable unit of code, this is handled first. Then integration testing is performed to test whether the units can perform well together. Then systems testing is carried out to ensure that the whole system, both its functional and non-functional requirements, meet all requirements.
+
+Therefore, integration tests are the 'middle tests', they make sure that different units interact with eachother as intended. Mocking could be used in these tests to ensure that specific units call on others. Whereas system tests check whether the system as a whole functions well, when things go wrong an integration test would help to find the specific 'link' that is missing. As integration tests come after unit tests, sufficient unit tests at this point should have ruled out individual units being the problem.
+
+Ultimately, integration tests are just a way of narrowing down problems in your code after the initial unit tests in order to eventually get to the stage where the end to end systems tests are working.

@@ -7,4 +7,7 @@ Use Postman to get a list of Service Principals from AAD
 Get a list of resource groups from an authenticated Graph Client
 Use a graph client to produce a list of resource groups in a subscription
 Describe the relationship between an RBAC role and an AAD role
-82f
+Describe the characteristics of Storage Account
+Describe the characteristics of Queue in storage accounts
+Demonstrate how to log at different severity levels
+Use Postman to get your profile from AAD
