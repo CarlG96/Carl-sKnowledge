@@ -1,0 +1,5 @@
+- No garbage collection. Makes it faster. No overhead. Also allows memory leaks.
+- Compiled language, so it gets turned into machine readable code before being run, this makes it fast as there is no level of interpretation before being run.
+- In interpreted languages the interpreter turns the code into bytecode and then runs the bytecode, the interpreter goes down to machine code but the actual code never does.
+- Loosely typed language. Can change floats to ints etc.
+- Not memory safe AT ALL!

@@ -1,0 +1,1 @@
+You can add filtering by clicking the button that is the intersectiom between A and 1 in the rows and columns to highlight everything and then clicking home and Sort and Filter and then filter. Then you can filter the data based on certain things.

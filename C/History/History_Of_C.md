@@ -1,0 +1,4 @@
+- C was created in 1972, this was the first version of C
+- 1978 was 'K&R' C, another form of C.
+- 1989, ANSI C comes out
+- 1990 C received an ISO certification.
