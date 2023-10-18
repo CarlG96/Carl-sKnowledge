@@ -47,5 +47,43 @@ Optional parameters are listed in square brackets, for example:
 # Mandatory Parameters
 
 Mandatory Parameters are listed without square brackets.
+
+# Positional Parameters
+
+Positional parameters are listed with square brackets around only the parameter name and the parameter name can be left off when calling the command.
+
+```PowerShell
+[-Path] <String[]> [-Stream <String[]>]...[-Filter <String>]
+```
+
+If an optional parameter is positional, then it will be listed like this:
+
+```PowerShell
+[[-Stream] <string[]>]
+```
+with double brackets around the parameter name.
+
+-Full
+
+Using the -Full parameter after get help will give you the full details about the command and the parameters it takes and requires you to press space to keep going. It will tell you whether it is required, positional, accepts pipeline input, accepts wildcard characters etc
+
+-Example
+
+Will provide an example of the command
+
+- Help *common* 
+
+Will bring up a list of variables common to all cmdlets. These include things like -ErrorAction and -WhatIf (WhatIf doesn't necessarily work for every cmdlet).
+
+- Online
+
+The online parameter will get information from the internet to update anything, this could help if the version you have on your computer has out of date documentation.
+
+# Get-Command
+
+Can be used with asterisks to get commands you might want, can be used with the -Noun parameter and a list like:
+
+```PowerShell
+Get-Command -Noun file, output
 ```
 
