@@ -6,7 +6,7 @@ Select your account
 
 Select the organisation
 
-Select the project and team (upport Users for me usually)
+Select the project and team (support Users for me usually)
 
 Select the event type (for failures you need to select the build completed first)
 
