@@ -1,0 +1,27 @@
+// Use arm! to create this initial bit of the ARM template
+// resources property takes up the majority of the ARM template
+// Use arm-storage shortcut to create the storage account resource
+// Use ARMViz website to visualise your template
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {},
+    "functions": [],
+    "variables": {},
+    "resources": [{
+        "name": "storageaccounts111111",
+        "type": "Microsoft.Storage/storageAccounts",
+        "apiVersion": "2023-01-01",
+        "tags": {
+            "displayName": "storageAccounts111111"
+        },
+        "location": "[resourceGroup().location]",
+        "kind": "StorageV2",
+        "sku": {
+            "name": "Premium_LRS",
+            "tier": "Premium"
+        },
+        "properties": {"supportsHttpsTrafficOnly": true}
+    }],
+    "outputs": {}
+}
