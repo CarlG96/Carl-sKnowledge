@@ -29,7 +29,7 @@ def greet(thing):
 
 ## O(log n) logarithmic time
 
-Seen in search algorithms.
+Seen in search algorithms. NEED EXAMPLE
 
 ## O(n) Linear time
 
@@ -43,7 +43,7 @@ def go_through_collection(my_list):
 
 ## O(n * logn)
 
-Seen in sorting algorithms
+Seen in sorting algorithms NEED EXAMPLE
 
 ## O(n2) Polynomial time (when is raised to the second power, it is quadratic time)
 
@@ -51,12 +51,25 @@ Nested loops often have this time.
 
 ## O(2 to the n) Exponential time
 
-You will often see this runtime in recursive algorithms.
+You will often see this runtime in recursive algorithms. NEED EXAMPLE
 
 ## O(n!) Factorial runtime
 
 You will often see this when you have to generate all of the different permutations of something. For instance, a program that generates all the different ways to order the letters "abcd" would run in this runtime.
 
+# Space Complexity
+
+Asymptotic notation can also be used to understand the space complexity of a program.
+
+This function will have a constant runtime due to not creating any new variables:
+
+```Python
+def simple_loop(input_array):
+  for i in input_array:
+    print(i)
+```
+
+Space complexity doesn't count the space of the input, only what is created in the function. Languages that use pass by reference inherently decrease the amount of space complexity, and pointers in C and C++ doe the same thing.
 
 
 
