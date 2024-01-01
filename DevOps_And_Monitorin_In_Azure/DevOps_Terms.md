@@ -15,3 +15,4 @@ Continuous Deployment means automatically deploying every change developers make
 ## CM
 
 Continuous Monitoring refers to monitoring the application after it has been deployed.
+
