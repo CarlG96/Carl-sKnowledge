@@ -10,6 +10,10 @@ Here the code is being published as an artifact in the pipeline and placed into 
 
 ![Artifact Download](./images/artifactdownload.png)
 
+## Moving Artifacts between Pipelines
+
+Artifacts can be reused between pipelines if they are both run from the same branch (if the repo contains multiple pipelines). latestFromBranch can be used for the runVersion parameter. The parameter runBranch can use the $(Build.SourceBranch) to reuse the artifact. If the pipeline that produced the pipeline artifact only partially succeeded, you will need to use the allowPartiallySucceededBuilds: true parameter otherwise the branch won't have the artifacts available as it will not recognise that a build exists. The buildPipelineId also has something to do with this but I am unsure on the specifics.
+
 ## Universal Artifact
 
 Universal Artifacts are pieces of code that are uploaded and can be made available for your organisation. This is what is in the Azure Artifacts section on DevOps and allows you to download the code as a package elsewhere through package managers such as NuGet.
