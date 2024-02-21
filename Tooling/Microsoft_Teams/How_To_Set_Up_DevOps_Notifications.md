@@ -1,4 +1,4 @@
-In the teams channel, go to the elipses in the top right hand corner.
+In the teams channel, go to the elipses in the top right hand corner and click connectors.
 
 Click configure for Azure Devops.
 
